@@ -10,7 +10,7 @@ import math
 
 ###
 '''
-Common functions...
+Common functionsBaseException
 '''
 ###
 
@@ -18,7 +18,7 @@ def inputStr(Display):
     #inital
     try:
         return input(Display)
-    except ...:
+    except BaseException:
         return "<<>>_Error_<<>>"
 #end
 
@@ -27,7 +27,7 @@ def inputFloat(Display):
     str = inputStr(Display)
     try:
         return float(str)
-    except ...:
+    except BaseException:
         return "<<>>_Error_<<>>"
 #end
 
@@ -36,7 +36,7 @@ def inputInt(Display):
     str = inputStr(Display)
     try:
         return int(str)
-    except ...:
+    except BaseException:
         return "<<>>_Error_<<>>"
 #end
 
@@ -44,7 +44,7 @@ def toFloat(Str):
     #inital
     try:
         return float(Str)
-    except ...:
+    except BaseException:
         return "<<>>_Error_<<>>"
 #end
 
@@ -52,7 +52,7 @@ def toInt(Str):
     #inital
     try:
         return int(Str)
-    except ...:
+    except BaseException:
         return "<<>>_Error_<<>>"
 #end
 
