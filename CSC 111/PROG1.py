@@ -1,14 +1,14 @@
 '''
-Program:  <progname>.py
+Program:  PROG1.py
 Author:  Thomas M. Queenan
 Class:   CSC 111
 Instructor:  V Manes
-Due:     <date>
-Written  <date>
+Due: 10/28/16
+Written  10/3/16
 
-Program description: <what it does, how it does it. Briefly>
+Program description: Tax claculator
 
-Program usage: <any special instructions>
+Program usage: Disclamer: Do not actualy use for taxes
 '''
 
 # Import statements go here
